@@ -12,7 +12,7 @@ Supported inputs:
   - transactions: item IDs per line
 
 Metrics:
-  - l2, angular, jaccard, inner-product 
+  - l2, angular, jaccard, inner-product
 """
 
 from __future__ import annotations
