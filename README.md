@@ -1,4 +1,4 @@
-ANN Dataset
+ANN Datasets
 --------------
 
 | Dataset | #Dim | #N | Origin | Distance Metric | Query Size | Feature |
