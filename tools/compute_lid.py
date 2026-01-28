@@ -1,5 +1,5 @@
 """
-LID evaluation tool with adaptive parameter selection.
+Local Intrinsic Dimensionality (LID) evaluation tool with adaptive parameter selection.
 
 Supported inputs:
   - fvecs
