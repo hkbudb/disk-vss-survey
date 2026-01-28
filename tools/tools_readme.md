@@ -46,4 +46,4 @@ LID `result` includes `lid`, `base_used`, `queries_used`, `k_lid`.
 - If only a base file is provided, the tool samples queries from the base pool.
 - For `metric=ip`:
   - RC uses similarities: `RC_ip = E[S_max] / E[S_mean]`
-  - LID uses positive distance gaps: `r_i = s_max - s_{i+1}`
+  - LID uses positive distance gaps: `r_i = s_max - s_{i+1}` 
