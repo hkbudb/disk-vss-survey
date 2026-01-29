@@ -1,4 +1,4 @@
-# Surveys and Datasets for Vector Similarity Search
+# Survey, Tutorial, and Datasets for Vector Similarity Search
 
 * [**Disk-Resident Vector Similarity Search: A Survey**](#-disk-resident-vector-similarity-search-a-survey-paper)
 * [**Vector Search for the Future: SIGMOD '26 Tutorial**](#-vector-search-for-the-future-from-memory-resident-static-heterogeneous-storage-to-cloud-native-architectures-sigmod-26-tutorial-paper)
