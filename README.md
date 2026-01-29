@@ -24,20 +24,20 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 
 | Dataset | #Dim | #N | Origin | Distance Metric | Query Size | Feature |
 | --- | --- | --- | --- | --- | --- | --- |
-| [MovieLens-10M](https://github.com/erikbern/ann-benchmarks) | 65,134 | 69K | Set | Jaccard | 500 | ✅ |
-| [Kosarak](https://github.com/erikbern/ann-benchmarks) | 27,983 | 74K | Set | Jaccard | 500 | ❌ |
+| [MovieLens-10M](http://ann-benchmarks.com/movielens10m-jaccard.hdf5) | 65,134 | 69K | Set | Jaccard | 500 | ✅ |
+| [Kosarak](http://ann-benchmarks.com/kosarak-jaccard.hdf5) | 27,983 | 74K | Set | Jaccard | 500 | ❌ |
 | [OpenAI-3072](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-3072-1M) | 3,072 | 1M | Text | Euclidean | N/A | ✅ |
 | [WIT-ResNet50](https://www.kaggle.com/competitions/wikipedia-image-caption/data) | 2,048 | 45K | Image | Euclidean | N/A | ❌ |
 | [OpenAI-1536](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-1536-1M) | 1,536 | 1M | Text | Euclidean | N/A | ✅ |
-| [Enron](https://github.com/Lsyhprum/WEAVESS/tree/dev/dataset) | 1,369 | 94K | Text | Angular | 200 | ✅ |
+| [Enron](https://drive.google.com/file/d/1TqV43kzuNYgAYXvXTKsAG1-ZKtcaYsmr/view) | 1,369 | 94K | Text | Angular | 200 | ✅ |
 | [Wiki](https://huggingface.co/datasets/Cohere/wikipedia-2023-11-embed-multilingual-v3) | 1,024 | 247.2M | Text | Angular | N/A | ✅ |
 | [MSMACRO](https://huggingface.co/datasets/Cohere/msmarco-v2.1-embed-english-v3) | 1,024 | 53.2M | Text | Angular | 1,677 | ✅ |
 | [GIST](http://corpus-texmex.irisa.fr/) | 960 | 1M | Image | Euclidean | 1,000 | ❌ |
 | [MNIST](https://ann-benchmarks.com/mnist-784-euclidean.hdf5) | 784 | 60K | Image | Euclidean | 10,000 | ✅ |
 | [LAION-5B](https://clickhouse.com/docs/getting-started/example-datasets/laion-5b-dataset) | 768 | 5B | Image | Angular | N/A | ✅ |
-| [COCO-I2I](https://cocodataset.org/#download) | 512 | 113K | Image | Angular | 10,000 | ❌ |
+| [COCO-I2I](https://github.com/fabiocarrara/str-encoders/releases/download/v0.1.3/coco-i2i-512-angular.hdf5) | 512 | 113K | Image | Angular | 10,000 | ❌ |
 | [MSong](https://www.ifs.tuwien.ac.at/mir/msd/download.html) | 420 | 1M | Audio | Euclidean | 200 | ❌ |
-| [Tiny](http://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/tiny5m.tar.gz) | 384 | 5M | Image | Euclidean | 10,000 | ❌ |
+| [Tiny](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/tiny5m.tar.gz) | 384 | 5M | Image | Euclidean | 10,000 | ❌ |
 | [GloVe-300](https://nlp.stanford.edu/projects/glove/) | 300 | 2.2M | Text | Angular | 10,000 | ❌ |
 | [Crawl](https://nlp.stanford.edu/projects/glove/) | 300 | 2M | Text | Angular | 10,000 | ❌ |
 | [Facebook SimSearchNet++](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin) | 256 | 1B | Image | Euclidean | 100,000 | ❌ |
@@ -45,7 +45,7 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 | [NYTimes](http://ann-benchmarks.com/nytimes-256-angular.hdf5) | 256 | 290K | Text | Angular | 10,000 | ❌ |
 | [Yandex Text-to-Image](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | 200 | 1B | Text & Image | Inner-product | 100,000 | ❌ |
 | [GloVe-200](https://nlp.stanford.edu/projects/glove/) | 200 | 1.2M | Text | Angular | 10,000 | ❌ |
-| [Audio](http://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/audio.tar.gz) | 192 | 53K | Audio | Euclidean | 200 | ❌ |
+| [Audio](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/audio.tar.gz) | 192 | 53K | Audio | Euclidean | 200 | ❌ |
 | [SIFT](http://corpus-texmex.irisa.fr/) | 128 | 1B | Image | Euclidean | 10,000 | ❌ |
 | [SPACEV](https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B) | 100 | 1.4B | Text | Euclidean | 29,316 | ❌ |
 | [Turing](https://big-ann-benchmarks.com/neurips21.html) | 100 | 1B | Text | Euclidean | 100,000 | ✅ |
@@ -58,7 +58,7 @@ We provide an overview of representative public datasets that are commonly adopt
 
 - **[MovieLens-10M](https://dl.acm.org/doi/pdf/10.1145/2827872)** is a movie recommender dataset containing 10M user–movie ratings plus tag applications (with movie/user IDs and tags as metadata), which is commonly converted into high-dimensional sparse sets/vectors (e.g., item/tag incidence) for set-similarity search (e.g., Jaccard).
 - **[Kosarak](https://dl.acm.org/doi/pdf/10.1145/1007730.1007744)** is an anonymized click-stream transaction log from a Hungarian online news portal, where each record is a sparse set of item/page IDs and can be directly used as a set/binary vector.
-- **[OpenAI-3072](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-3072-1M), [OpenAI-1536](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-1536-1M)** are text embedding dataset derived from the first one million entries of *[dbpedia-entity](https://openreview.net/forum?id=wCu6T5xFjeJ)*. Each entry concatenates the *title* and *text* fields and is encoded using the OpenAI *[text-embedding-3-large](https://platform.openai.com/docs/models/text-embedding-3-large)* model. The dataset is released in two dimensionalities (3072 and 1536) and includes metadata such as *id*, *title*, and *text*.
+- **[OpenAI-3072](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-3072-1M), [OpenAI-1536](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-1536-1M)** are text embedding datasets derived from the first one million entries of *[dbpedia-entity](https://openreview.net/forum?id=wCu6T5xFjeJ)*. Each entry concatenates the *title* and *text* fields and is encoded using the OpenAI *[text-embedding-3-large](https://platform.openai.com/docs/models/text-embedding-3-large)* model. The dataset is released in two dimensionalities (3072 and 1536) and includes metadata such as *id*, *title*, and *text*.
 - **[WIT-ResNet50](https://dl.acm.org/doi/pdf/10.1145/3404835.3463257)** is an auxiliary vector dataset released for the Wikipedia Image–Caption Matching competition, consisting of a large subset of WIT images represented by 2048-dimensional [*ResNet-50*](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) features extracted from the penultimate layer of an ImageNet-pretrained model.
 - **[Enron](https://bklimt.com/papers/2004_klimt_ecml.pdf)** is a large email corpus (message text plus headers such as sender/recipient and folder organization), commonly vectorized via text representations, and it includes folder structure/metadata that can be used as filter attributes.
 - **[Wiki](https://dumps.wikimedia.org)** is a multilingual Wikipedia paragraph corpus (300+ languages) where articles are chunked into paragraphs and encoded into 1024-dimensional vectors using *[Cohere Embed v3](https://cohere.com/blog/introducing-embed-v3)* model; each record retains metadata fields such as *url*, *title*, and *text* that can be used for filtering.
