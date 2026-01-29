@@ -41,7 +41,7 @@ In this tutorial, we review the evolution of VS techniques from a storage-archit
 
 ## 🗃️ Public VSS Datasets
 
-Representative public datasets commonly adopted in VSS studies: 
+* **Public datasets commonly adopted in VSS studies** 
 
 | Dataset | #Dim | #N | Origin | Distance Metric | Query Size | Feature |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -73,7 +73,7 @@ Representative public datasets commonly adopted in VSS studies:
 | [GloVe-100](https://nlp.stanford.edu/projects/glove/) | 100 | 1.2M | Text | Angular | 10,000 | ❌ |
 | [DEEP](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | 96 | 1B | Image | Euclidean | 10,000 | ❌ |
 
-### Dataset Descriptions
+* **Dataset Descriptions**
 
 - **[MovieLens-10M](https://dl.acm.org/doi/pdf/10.1145/2827872)** is a movie recommender dataset containing 10M user–movie ratings plus tag applications (with movie/user IDs and tags as metadata), which is commonly converted into high-dimensional sparse sets/vectors (e.g., item/tag incidence) for set-similarity search (e.g., Jaccard).
 - **[Kosarak](https://dl.acm.org/doi/pdf/10.1145/1007730.1007744)** is an anonymized click-stream transaction log from a Hungarian online news portal, where each record is a sparse set of item/page IDs and can be directly used as a set/binary vector.
