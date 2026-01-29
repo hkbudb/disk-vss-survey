@@ -7,7 +7,7 @@
 ```
 @article{song2026vector,
   title={Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures},
-  author={Yitong  Song, Xuanhe Zhou, Christian S Jensen,  and Jianliang Xu},
+  author={Song, Yitong and Zhou, Xuanhe and Jensen, Christian S and Xu, Jianliang},
   journal={Proceedings of the ACM on Management of Data},
   year={2026}
 }
