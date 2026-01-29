@@ -39,10 +39,10 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 | [MSong](https://www.ifs.tuwien.ac.at/mir/msd/download.html) | 420 | 1M | Audio | Euclidean | 200 | ❌ |
 | [Tiny](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/tiny5m.tar.gz) | 384 | 5M | Image | Euclidean | 10,000 | ❌ |
 | [GloVe-300](https://nlp.stanford.edu/projects/glove/) | 300 | 2.2M | Text | Angular | 10,000 | ❌ |
-| [Crawl](https://nlp.stanford.edu/projects/glove/) | 300 | 2M | Text | Angular | 10,000 | ❌ |
+| [Crawl](https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M.vec.zip) | 300 | 2M | Text | Angular | 10,000 | ❌ |
 | [Facebook SimSearchNet++](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin) | 256 | 1B | Image | Euclidean | 100,000 | ❌ |
 | [UQvideo](https://drive.google.com/file/d/1HIdQSKGh7cfC7TnRvrA2dnkHBNkVHGsF/view?usp=sharing) | 256 | 1M | Video | Euclidean | 10,000 | ❌ |
-| [NYTimes](http://ann-benchmarks.com/nytimes-256-angular.hdf5) | 256 | 290K | Text | Angular | 10,000 | ❌ |
+| [NYTimes](https://ann-benchmarks.com/nytimes-256-angular.hdf5) | 256 | 290K | Text | Angular | 10,000 | ❌ |
 | [Yandex Text-to-Image](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | 200 | 1B | Text & Image | Inner-product | 100,000 | ❌ |
 | [GloVe-200](https://nlp.stanford.edu/projects/glove/) | 200 | 1.2M | Text | Angular | 10,000 | ❌ |
 | [Audio](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/audio.tar.gz) | 192 | 53K | Audio | Euclidean | 200 | ❌ |
