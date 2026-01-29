@@ -48,7 +48,7 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 | [Audio](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/audio.tar.gz) | 192 | 53K | Audio | Euclidean | 200 | ❌ |
 | [SIFT](http://corpus-texmex.irisa.fr/) | 128 | 1B | Image | Euclidean | 10,000 | ❌ |
 | [SPACEV](https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B) | 100 | 1.4B | Text | Euclidean | 29,316 | ❌ |
-| [Turing](https://big-ann-benchmarks.com/neurips21.html) | 100 | 1B | Text | Euclidean | 100,000 | ✅ |
+| [Turing](https://comp21storage.z5.web.core.windows.net/comp21/MSFT-TURING-ANNS/base1b.fbin) | 100 | 1B | Text | Euclidean | 100,000 | ✅ |
 | [GloVe-100](https://nlp.stanford.edu/projects/glove/) | 100 | 1.2M | Text | Angular | 10,000 | ❌ |
 | [DEEP](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | 96 | 1B | Image | Euclidean | 10,000 | ❌ |
 
