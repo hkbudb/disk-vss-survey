@@ -1,5 +1,26 @@
-ANN Datasets
---------------
+# A Survey of Disk-Resident Vector Similarity Search
+
+> ```
+> If you find our survey useful, please cite the paper:
+> ```
+
+```
+@article{song2026vector,
+  title={Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures},
+  author={Yitong  Song, Xuanhe Zhou, Christian S Jensen,  and Jianliang Xu},
+  journal={Proceedings of the ACM on Management of Data},
+  year={2026}
+}
+```
+
+## 💾 Disk-Resident Vector Similarity Search: A Survey
+
+Our survey provides the first comprehensive and systematic review of **disk-resident VSS** methods, summarizing how existing approaches are redesigned to mitigate I/O bottlenecks in hybrid memory–disk architectures.
+We categorize existing methods into three major classes, i.e., **IVF-based**, **graph-based**, and **tree-based** approaches, based on the fine-grained filtering structures they employ. For each category, we further decompose the overall design into key technical components, including **index construction**, **block-aware layouts**, **query execution strategies**, and **update mechanisms**. Moreover, we summarize commonly used datasets to facilitate reproducible benchmarking, and identify open challenges and promising directions for future research. Our paper is available at : [arXiv]().
+
+### ![classify](README.assets/classify.png)
+
+### ANN Datasets
 
 | Dataset | #Dim | #N | Origin | Distance Metric | Query Size | Feature |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +52,7 @@ ANN Datasets
 | [GloVe-100](https://nlp.stanford.edu/projects/glove/) | 100 | 1.2M | Text | Angular | 10,000 | ❌ |
 | [DEEP](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | 96 | 1B | Image | Euclidean | 10,000 | ❌ |
 
-## Dataset Description
+#### Dataset Description
 
 We provide an overview of representative public datasets that are commonly adopted in disk-resident VSS studies.
 
@@ -62,5 +83,8 @@ We provide an overview of representative public datasets that are commonly adopt
 
 
 
+## 🚀 Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures
 
+In this tutorial, we review the evolution of VS techniques from a storage-architecture perspective. We first review **memory-resident** methods, covering classical IVF-, hash-, quantization-, and graph-based designs. We then present a systematic overview of **heteroge-neous storage** VS techniques, including their index designs, block-level layouts, query strategies, and update mechanisms. Finally, we examine emerging **cloud-native** systems and highlight open research opportunities for future large-scale vector retrieval systems. Our paper is available at : [arXiv](https://arxiv.org/pdf/2601.01937).
 
+![trends](README.assets/trends.png)
