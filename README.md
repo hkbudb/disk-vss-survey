@@ -24,8 +24,8 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 
 | Dataset | #Dim | #N | Origin | Distance Metric | Query Size | Feature |
 | --- | --- | --- | --- | --- | --- | --- |
-| [MovieLens-10M](http://ann-benchmarks.com/movielens10m-jaccard.hdf5) | 65,134 | 69K | Set | Jaccard | 500 | ✅ |
-| [Kosarak](http://ann-benchmarks.com/kosarak-jaccard.hdf5) | 27,983 | 74K | Set | Jaccard | 500 | ❌ |
+| [MovieLens-10M](https://ann-benchmarks.com/movielens10m-jaccard.hdf5) | 65,134 | 69K | Set | Jaccard | 500 | ✅ |
+| [Kosarak](https://ann-benchmarks.com/kosarak-jaccard.hdf5) | 27,983 | 74K | Set | Jaccard | 500 | ❌ |
 | [OpenAI-3072](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-3072-1M) | 3,072 | 1M | Text | Euclidean | N/A | ✅ |
 | [WIT-ResNet50](https://www.kaggle.com/competitions/wikipedia-image-caption/data) | 2,048 | 45K | Image | Euclidean | N/A | ❌ |
 | [OpenAI-1536](https://huggingface.co/datasets/Qdrant/dbpedia-entities-openai3-text-embedding-3-large-1536-1M) | 1,536 | 1M | Text | Euclidean | N/A | ✅ |
