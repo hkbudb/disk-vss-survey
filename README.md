@@ -41,7 +41,7 @@ In this tutorial, we review the evolution of VS techniques from a storage-archit
 
 ## 🗃️ Public VSS Datasets
 
-* **Public datasets commonly adopted in VSS studies** 
+* **Public datasets commonly used in VSS studies** 
 
 | Dataset | #Dim | #N | Origin | Distance Metric | Query Size | Feature |
 | --- | --- | --- | --- | --- | --- | --- |
