@@ -43,7 +43,7 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 | [Facebook SimSearchNet++](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin) | 256 | 1B | Image | Euclidean | 100,000 | ❌ |
 | [UQvideo](https://drive.google.com/file/d/1HIdQSKGh7cfC7TnRvrA2dnkHBNkVHGsF/view?usp=sharing) | 256 | 1M | Video | Euclidean | 10,000 | ❌ |
 | [NYTimes](http://ann-benchmarks.com/nytimes-256-angular.hdf5) | 256 | 290K | Text | Angular | 10,000 | ❌ |
-| [Yandex Text-to-Image](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | 200 | 1B | Text & image | Inner-product | 100,000 | ❌ |
+| [Yandex Text-to-Image](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | 200 | 1B | Text & Image | Inner-product | 100,000 | ❌ |
 | [GloVe-200](https://nlp.stanford.edu/projects/glove/) | 200 | 1.2M | Text | Angular | 10,000 | ❌ |
 | [Audio](http://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/audio.tar.gz) | 192 | 53K | Audio | Euclidean | 200 | ❌ |
 | [SIFT](http://corpus-texmex.irisa.fr/) | 128 | 1B | Image | Euclidean | 10,000 | ❌ |
@@ -83,7 +83,7 @@ We provide an overview of representative public datasets that are commonly adopt
 
 
 
-## 🚀 Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures (SIGMOD 2026 Tutorial)
+## 🚀 Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures (SIGMOD2026 Tutorial)
 
 In this tutorial, we review the evolution of VS techniques from a storage-architecture perspective. We first review **memory-resident** methods, covering classical IVF-, hash-, quantization-, and graph-based designs. We then present a systematic overview of **heteroge-neous storage** VS techniques, including their index designs, block-level layouts, query strategies, and update mechanisms. Finally, we examine emerging **cloud-native** systems and highlight open research opportunities for future large-scale vector retrieval systems. [[📑paper]](https://arxiv.org/pdf/2601.01937)
 
