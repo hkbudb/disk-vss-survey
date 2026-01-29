@@ -525,7 +525,8 @@ def main() -> None:
                 raise SystemExit("HDF5 already contains queries; do not set --query.")
             base, queries = _load_hdf5(base_path)
         elif _is_vector_kind(kind):
-            base, base_d = _load_vector_kind(kind, base_path, args.jsonl_emb_field, args.base_n, args.seed)
+            base_emb_field = args.parquet_emb_field if kind == "parquet" else args.jsonl_emb_field
+            base, base_d = _load_vector_kind(kind, base_path, base_emb_field, args.base_n, args.seed)
             if query_path:
                 q_kind = _detect_input_kind(query_path)
                 if not _is_vector_kind(q_kind):
