@@ -12,7 +12,6 @@
 @article{song2026vector1,
   title={Disk-Resident Vector Similarity Search: A Survey},
   author={Song, Yitong and Li, Huiling and Wu, Zheng and Yi, Lanjing and Zhu, Bojian and Zhou, Xuanhe and Huang, Xin and Xu, Jianliang},
-  url={https://github.com/hkbudb/disk-vss-survey/blob/main/Disk-Resident%20Vector%20Similarity%20Search-%20A%20Survey.pdf}
   year={2026}
 }
 
