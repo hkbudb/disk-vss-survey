@@ -11,8 +11,8 @@
 ```
 @article{song2026vector1,
   title={Disk-Resident Vector Similarity Search: A Survey},
-  author={Song, Yitong .... and Zhou, Xuanhe and .... and Xu, Jianliang},
-  journal={},
+  author={Song, Yitong and Li, Huiling and Wu, Zheng and Yi, Lanjing and Zhu, Bojian and Zhou, Xuanhe and Huang, Xin and Xu, Jianliang},
+  url={}
   year={2026}
 }
 
@@ -24,7 +24,7 @@
 }
 ```
 
-## 💾 Disk-Resident Vector Similarity Search: A Survey [[📑paper]]()
+## 💾 Disk-Resident Vector Similarity Search: A Survey [[📑paper]](Disk-Resident Vector Similarity Search- A Survey.pdf)
 
 This survey provides the first comprehensive and systematic review of **disk-resident VSS** methods, summarizing how existing approaches are redesigned to mitigate I/O bottlenecks in hybrid memory–disk architectures.
 We categorize existing methods into three major classes, i.e., **IVF-based**, **graph-based**, and **tree-based** approaches, based on the fine-grained filtering structures they employ. For each category, we further decompose the overall design into key technical components, including **index construction**, **block-aware layouts**, **query execution strategies**, and **update mechanisms**. Moreover, we summarize commonly used datasets to facilitate reproducible benchmarking, and identify open challenges and promising directions for future research. 
