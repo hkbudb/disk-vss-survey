@@ -18,11 +18,11 @@
   url={https://doi.org/10.1109/TKDE.2026.3731393}
 }
 @misc{chen2026diskresidentgraphannsearch,
-	title={Disk-Resident Graph ANN Search: An Experimental Evaluation}, 
+  title={Disk-Resident Graph ANN Search: An Experimental Evaluation}, 
   author={Xiaoyu Chen and Jinxiu Qu and Yitong Song and Shuhang Lu and Huiling Li and Minghui Jiang and Wei Zhou and Jianliang Xu and Xuanhe Zhou and Fan Wu},
   journal={Proceedings of the VLDB Endowment (PVLDB)},
   year={2026},
-url={https://arxiv.org/abs/2603.01779}
+  url={https://arxiv.org/abs/2603.01779}
 }
 @article{song2026vector2,
   title={Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures},
