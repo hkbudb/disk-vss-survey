@@ -1,7 +1,7 @@
 # Survey, Tutorial, and Datasets for Vector Similarity Search
 
 * [**Disk-Resident Vector Similarity Search: A Survey (TKDE 2026)**](#-disk-resident-vector-similarity-search-a-survey-paper)
-* [**Disk-Resident Graph ANN Search: An Experimental Evaluation** (PVLDB 2026)](#-disk-resident-graph-ann-search-an-experimental-evaluation-paper)
+* [**Disk-Resident Graph ANN Search: An Experimental Evaluation (PVLDB 2026)**](#-disk-resident-graph-ann-search-an-experimental-evaluation-paper)
 * [**Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures (SIGMOD 2026 Tutorial)**](#-vector-search-for-the-future-from-memory-resident-static-heterogeneous-storage-to-cloud-native-architectures-sigmod-26-tutorial-paper-slides)
 * [**Public VSS Datasets**](#%EF%B8%8F-public-vss-datasets)
 
