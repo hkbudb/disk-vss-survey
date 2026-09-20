@@ -33,7 +33,7 @@
   url={https://doi.org/10.1145/3788853.3801879}
 }
 ```
-
+<a name="-disk-resident-vector-similarity-search-a-survey-paper"></a>
 ## 💾 Disk-Resident Vector Similarity Search: A Survey ***(TKDE 2026)*** [[📑paper]](https://doi.org/10.1109/TKDE.2026.3731393)
 
 This survey provides the first comprehensive and systematic review of **disk-resident VSS** methods, summarizing how existing approaches are redesigned to mitigate I/O bottlenecks in hybrid memory–disk architectures.
@@ -41,6 +41,7 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 
 ### ![classify](README.assets/classify.png)
 
+<a name="-disk-resident-graph-ann-search-an-experimental-evaluation-paper"></a>
 ## 🔍 Disk-Resident Graph ANN Search: An Experimental Evaluation ***(PVLDB 2026)*** [[📑paper]](https://arxiv.org/pdf/2603.01779)
 
 As data volumes grow while memory capacity remains limited, disk-resident graph-based approximate nearest neighbor (ANN) methods have become a practical alternative to memory-resident designs, shifting the bottleneck from computation to disk I/O. However, since their technical designs diverge widely across storage, layout, and execution paradigms, a systematic understanding of their fundamental performance trade-offs remains elusive. 
