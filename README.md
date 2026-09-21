@@ -17,7 +17,7 @@
   year={2026},
   url={https://doi.org/10.1109/TKDE.2026.3731393}
 }
-@misc{chen2026diskresidentgraphannsearch,
+@article{chen2026diskresidentgraphannsearch,
   title={Disk-Resident Graph ANN Search: An Experimental Evaluation}, 
   author={Xiaoyu Chen and Jinxiu Qu and Yitong Song and Shuhang Lu and Huiling Li and Minghui Jiang and Wei Zhou and Jianliang Xu and Xuanhe Zhou and Fan Wu},
   journal={Proceedings of the VLDB Endowment (PVLDB)},
